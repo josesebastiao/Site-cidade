@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+.container{
+    
+}
