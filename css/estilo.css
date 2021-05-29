@@ -1,3 +1,5 @@
+/* Estrutura Básica */
+
 *{
     margin:0;
     padding: 0;
@@ -8,6 +10,53 @@ body{
     background: #fff url(../imagens/fundo.png) repeat-x;
 }
 
-.container{
+/* Topo */
+
+#container{
+width: 750px;
+margin: 0 auto;
+
+
+}
+
+#topo{
+    height: 150px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    border: solid 1px red;
+    padding-top: 25px;
+
+}
+
+.logo{
+        width: 152px;
+        height: 66px;
+        background: url(../imagens/logo.png) no-repeat center;
+        text-indent: 450px;
+        color: #fff;
+
+}
+/* Barra de Navegação */
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#topo ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
     
 }
