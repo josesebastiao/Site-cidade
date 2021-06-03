@@ -131,15 +131,31 @@ body.inicio #navegacao a#inicio body.turismo #navegacao a#turismo body.economia 
         margin-top: 5px;
 }
 
+/* Formatar menus laterais */
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color:#000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color:#a1a1a1;
+}
+
+
 h2{
     font-size: 1.1em;
     background: #294c71;
     color:#fff;
     padding: 5px;
 }
-
-
-
 
 /* Rodape */
 #container-rodape {
