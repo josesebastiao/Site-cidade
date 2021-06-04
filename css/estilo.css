@@ -19,7 +19,6 @@ body {
 
 #topo {
     height: 150px;
-    background: url(../imagens/detalhe-topo.png) no-repeat right top;
     padding-top: 30px;
 }
 
@@ -148,6 +147,32 @@ body.inicio #navegacao a#inicio body.turismo #navegacao a#turismo body.economia 
     padding-left: 20px;
     color:#a1a1a1;
 }
+
+/* Formatando formulários */
+
+label{
+    display: block;
+    cursor:pointer;
+}
+
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    padding: 5px;
+    font-size: 0.9em;
+    
+}
+
+
+
 
 
 h2{
