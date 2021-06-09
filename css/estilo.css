@@ -1,9 +1,6 @@
 /* Estrutura Básica */
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -148,6 +145,63 @@ body.inicio #navegacao a#inicio body.turismo #navegacao a#turismo body.economia 
     color:#a1a1a1;
 }
 
+/* Formatando imagens */
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #b10333;
+    color:#fff;
+}
+
+
+.entrevista h3{
+    background: #b10333;
+    color:#fff;
+    
+}
+/* Formatando lista de noticias */
+
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a{
+   text-decoration: none;
+}
+
+#lista-noticias li a h3{
+   font-size: 0.8em;
+   padding: 0;
+   
+}
+
+#lista-noticias li a p{
+ font-size: 0.7em;
+}
+
+#lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
+   }
+
+
 /* Formatando formulários */
 
 label{
@@ -160,15 +214,17 @@ input{
     width: 125px;
     font-size: 0.9em;
     background-color: #fff;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border-color: #a7a0a0;
+    
 }
 
 input.submit{
     width: 80px;
     color: #fff;
     background-color: #b10333;
-    padding: 5px;
-    font-size: 0.9em;
-    
+    border: 2px solid #870529;
 }
 
 
